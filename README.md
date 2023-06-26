@@ -14,3 +14,16 @@ The transformed data will be stored back in AWS S3, maintaining proper file orga
 Furthermore, to enable seamless analytics, the project will involve creating analytics tables using AWS Glue and Athena. These services will assist in defining the data schema and enable querying and analysis of the transformed data efficiently.
 
 By implementing this Spotify data pipeline on AWS, the project aims to provide a scalable, reliable, and automated solution for extracting, transforming, and analyzing Spotify data, unlocking valuable insights for various analytical purposes.
+
+### Architecture
+![Architecture](https://github.com/darshilparmar/dataengineering-youtube-analysis-project/blob/main/architecture.jpeg)
+
+
+### Services Used:
+**The project utilizes the following AWS services:**
+
+1. Spotify API
+2. AWS Lambda
+3. AWS S3 (Simple Storage Service)
+4. AWS Glue
+5. Amazon Athena
